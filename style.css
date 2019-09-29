@@ -1,0 +1,109 @@
+#main_page {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin:0;
+    background-color:#ffdc81;
+}
+
+.fotoperfil {
+    width: 475.75px;
+    max-width:100%;
+    height:auto;
+}
+
+#nav_col {
+    float: left;
+    position: fixed;
+    max-width:100%;
+    width: 25%;
+    height:auto;
+    top: 0;
+    bottom: 0;
+    font-size:1.2vw;
+    margin-left: 5%;
+    background-color: #252a34;
+    box-shadow: 3px 5px 10px #666;
+}
+
+nav li {
+    list-style: none; 
+}
+
+nav a {
+    color:#ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+nav a:hover {
+    color:#00a196; 
+}
+
+
+#titulo h2{
+    float: right;
+    width: 60%;
+    margin-right: 5%;
+    font-size: 50px;
+    padding: 5px 20px 5px 20px;
+    background-color: #00a196;
+    color:#ffffff;
+    border-radius: 5px;
+    box-shadow: 3px 5px 10px #666;
+}
+
+#quiensoy, #formacion, #experiencia, #portfolio, #redes {
+    float: right;
+    background-color: #f2f4f6;
+    padding: 5px 20px 5px 20px;
+    box-shadow: 3px 5px 10px #666;
+    width: 60%;
+    margin-right: 5%;
+    border-radius: 5px;
+}
+
+#formacion, #experiencia, #portfolio, #redes {
+    margin-top: 2%;
+}
+
+.titulo {
+    font-size: 40px;
+    border-bottom: 2px solid #00a196;
+}
+
+.subtitulo {
+    border-bottom: 2px solid #00a196;
+}
+
+.datospersonales{
+    color: #00a196;
+}
+
+.datospersonales li span {
+    color: #000000;
+}
+
+h2 {
+    color:#00a196;
+    font-weight: 900;
+}
+
+h3 {
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+h5 {
+    margin-top: 5px;
+    font-weight: 700;
+    color: #00a196;
+}
+
+img {
+    width: 125px;
+    height: 125px;
+}
+
